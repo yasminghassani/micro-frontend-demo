@@ -6,7 +6,8 @@
     "start": "nx serve shell --devRemotes=cart,products",
     "start:shell": "nx serve shell",
     "start:cart": "nx serve cart",
-    "start:products": "nx serve products"
+    "start:products": "nx serve products",
+    "diagnose": "bash diagnose.sh" 
   },
   "private": true,
   "dependencies": {
