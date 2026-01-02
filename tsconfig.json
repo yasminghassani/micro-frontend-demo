@@ -20,6 +20,9 @@
     },
     {
       "path": "./apps/products"
+    },
+    {
+      "path": "./libs/shared"
     }
   ]
 }

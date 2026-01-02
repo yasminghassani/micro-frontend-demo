@@ -17,6 +17,11 @@
     "strict": true,
     "target": "es2022",
     "customConditions": ["@org/source"],
-    "baseUrl": "."
+    "baseUrl": ".",
+    "paths": {
+      "@yasmin/shared-components": [
+        "libs/shared/src/index.ts"
+      ]
+    }
   }
 }

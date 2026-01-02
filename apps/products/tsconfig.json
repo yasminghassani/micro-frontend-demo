@@ -9,5 +9,10 @@
       "path": "./tsconfig.spec.json"
     }
   ],
-  "extends": "../../tsconfig.base.json"
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "paths": {
+      "@yasmin/shared-components": ["../../libs/shared/src/index.ts"]
+    }
+  }
 }
