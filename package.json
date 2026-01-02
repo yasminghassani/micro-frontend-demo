@@ -2,7 +2,12 @@
   "name": "@org/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start": "nx serve shell --devRemotes=cart,products",
+    "start:shell": "nx serve shell",
+    "start:cart": "nx serve cart",
+    "start:products": "nx serve products"
+  },
   "private": true,
   "dependencies": {
     "@module-federation/enhanced": "^0.21.2",
